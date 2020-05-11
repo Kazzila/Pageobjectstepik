@@ -1,4 +1,9 @@
-# оманда для командной строки pytest -v --tb=line --language=en test_main_page.py
+# № задания на курсе 4.2.6
+# Команда для командной строки pytest -v --tb=line --language=en test_main_page.py
+'''
+Суть
+
+'''
 
 def test_guest_can_go_to_login_page(browser):
     link = "http://selenium1py.pythonanywhere.com/"

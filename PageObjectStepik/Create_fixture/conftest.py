@@ -1,8 +1,10 @@
+# № задания на курсе
+
 import pytest
 from selenium import webdriver
 
 '''
-Создаем фикстуру browser для открытия и закрытия браузера перед тестом
+Создаем фикстуру browser для открытия и закрытия браузера перед/после теста
 '''
 
 @pytest.fixture(scope="function")
