@@ -2,7 +2,6 @@
 # Команда для ком.строки  !!! pytest -v --tb=line --language=en test_main_page.py   !!!
 '''
 Суть
-
 '''
 
 from .pages.main_page import MainPage
